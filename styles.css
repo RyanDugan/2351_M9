@@ -15,4 +15,5 @@ div {
   background-color: rgb(247, 247, 232);
   padding: 1em;
   margin: 1em;
+  justify-content: center;
 }
