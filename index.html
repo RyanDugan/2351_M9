@@ -7,35 +7,43 @@
     <title>API Projects</title>
   </head>
   <body>
-    <h2>JavaScript Validation API</h2>
+    <div class="flex-container">
+      <div>
+        <h2>JavaScript Validation API</h2>
 
-    <p>Enter a number and click OK:</p>
+        <p>Enter a number and click OK:</p>
 
-    <input type="number" id="id1" min="15" max="30" required />
-    <button onclick="myFunction()">OK</button>
+        <input type="number" id="id1" min="15" max="30" required />
+        <button onclick="myFunction()">OK</button>
 
-    <p>
-      If the number is less than 15 or greater than 30, an error message will be
-      displayed.
-    </p>
+        <p>
+          If the number is less than 15 or greater than 30, an error message
+          will be displayed.
+        </p>
 
-    <p id="test1"></p>
+        <p id="test1"></p>
+      </div>
 
-    <h2>JavaScript History API</h2>
+      <div>
+        <h2>JavaScript History API</h2>
 
-    <p>Click "Go Back" to your previously visited URL.</p>
-    <p><i>Make sure you have a previous url before this one!</i></p>
+        <p>Click "Go Back" to your previously visited URL.</p>
+        <p><i>Make sure you have a previous url before this one!</i></p>
 
-    <button onclick="goBack()">Go Back</button>
+        <button onclick="goBack()">Go Back</button>
+      </div>
 
-    <h2>Web Geolocation API</h2>
+      <div>
+        <h2>Web Geolocation API</h2>
 
-    <p>Click "Find Me" to show your geographical position.</p>
+        <p>Click "Find Me" to show your geographical position.</p>
 
-    <button onclick="findMe ()">Find Me</button>
+        <button onclick="findMe ()">Find Me</button>
 
-    <p id="test2"></p>
-    <p id="mapholder"></p>
+        <p id="test2"></p>
+        <p id="mapholder"></p>
+      </div>
+    </div>
 
     <script src="./app.js"></script>
   </body>
