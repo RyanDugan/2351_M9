@@ -17,3 +17,15 @@ div {
   margin: 1em;
   justify-content: center;
 }
+
+p {
+  padding: 5px 5px 5px 0px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+button {
+  margin-top: 10px;
+}
